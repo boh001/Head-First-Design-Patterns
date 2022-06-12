@@ -165,6 +165,9 @@ class CurrentConditionsDisPlayWithPull implements ObserverWithPull, DisplayEleme
   }
 }
 
+//=========================================================
+// main
+//=========================================================
 function main() {
   const weatherData = new WeatherData()
   const weatherDataWithPull = new WeatherDataWithPull()
